@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/literature_review.md",
+        "resources_catalog": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/resources.md",
+        "papers_dir": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/papers",
+        "datasets_dir": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/datasets",
+        "code_dir": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/code"
+      },
+      "log_file": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/logs/resource_finder_claude.log",
+      "transcript_file": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 2468.787253379822,
+      "background_processes_terminated": false
+    },
+    "experiment_runner": {
+      "success": false,
+      "return_code": 143,
+      "elapsed_time": 3600.3023602962494,
+      "log_file": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/logs/execution_claude.log",
+      "transcript_file": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/logs/execution_claude_transcript.jsonl",
+      "background_processes_terminated": false
+    }
+  },
+  "work_dir": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5"
+}

@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-06T07:51:28.965255Z",
+  "stages": {
+    "resource_finder": {
+      "status": "completed",
+      "started_at": "2026-09-06T07:51:29.011048Z",
+      "completed_at": "2026-09-06T08:32:37.815928Z",
+      "success": true,
+      "outputs": {
+        "literature_review": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/literature_review.md",
+        "resources_catalog": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/resources.md",
+        "papers_dir": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/papers",
+        "datasets_dir": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/datasets",
+        "code_dir": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/code"
+      },
+      "expected_outputs": [
+        "literature_review.md",
+        "resources.md"
+      ],
+      "next_steps": [
+        "Review the literature and resource catalog before running experiments."
+      ],
+      "workspace_check": {
+        "expected": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5",
+        "actual": "/app",
+        "exists": true,
+        "is_directory": true,
+        "cwd_matches": false,
+        "healthy": true
+      },
+      "workspace_check_at_completion": {
+        "expected": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5",
+        "actual": "/app",
+        "exists": true,
+        "is_directory": true,
+        "cwd_matches": false,
+        "healthy": true
+      },
+      "output_validation": {
+        "valid": true,
+        "expected": [
+          "literature_review.md",
+          "resources.md"
+        ],
+        "present": [
+          "literature_review.md",
+          "resources.md"
+        ],
+        "missing": [],
+        "outside_workspace": []
+      }
+    },
+    "experiment_runner": {
+      "status": "failed",
+      "started_at": "2026-09-06T08:32:37.839074Z",
+      "completed_at": "2026-09-06T09:32:38.167497Z",
+      "success": false,
+      "outputs": {
+        "success": false,
+        "return_code": 143,
+        "elapsed_time": 3600.3023602962494,
+        "log_file": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/logs/execution_claude.log",
+        "transcript_file": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5/logs/execution_claude_transcript.jsonl",
+        "background_processes_terminated": false
+      },
+      "expected_outputs": [
+        "REPORT.md"
+      ],
+      "next_steps": [
+        "Validate the report and experimental artifacts before finalizing."
+      ],
+      "workspace_check": {
+        "expected": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5",
+        "actual": "/app",
+        "exists": true,
+        "is_directory": true,
+        "cwd_matches": false,
+        "healthy": true
+      },
+      "workspace_check_at_completion": {
+        "expected": "/workspaces/how_much_biology_do_batch_corr_20260906_074942_ba309bd5",
+        "actual": "/app",
+        "exists": true,
+        "is_directory": true,
+        "cwd_matches": false,
+        "healthy": true
+      },
+      "output_validation": {
+        "valid": false,
+        "expected": [
+          "REPORT.md"
+        ],
+        "present": [],
+        "missing": [
+          "REPORT.md"
+        ],
+        "outside_workspace": []
+      }
+    }
+  },
+  "current_stage": null,
+  "completed": false
+}
